@@ -81,7 +81,7 @@ func main() {
 	}
 
 	// maximum number of children to print
-	maxNChild := 10
+	maxNChild := 25
 
 	// iterating over the children of the root tag.
 	for i, childBlock := range root1.Children {
