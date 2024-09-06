@@ -80,12 +80,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	// printing the root tag
-	fmt.Println(strings.Repeat("#", 80))
-	fmt.Println("Root Tag:")
-	printBlockHeader(root1)
-	fmt.Println(strings.Repeat("#", 80))
-
 	// maximum number of children to print
 	maxNChild := 10
 
