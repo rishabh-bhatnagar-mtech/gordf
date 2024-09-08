@@ -37,3 +37,4 @@ func LoadFromReaderObject(fileObj io.Reader) (parserObj *parser.Parser, err erro
 	}
 	return rdfParser, nil
 }
+
